@@ -1,0 +1,25 @@
+const float const_float_a = 0.0;
+#define HAVE_TYPEDEF_SUPPORT     1
+
+typedef int test_int;
+typedef long long int test_long_long_int;
+
+int int_a;
+int int_b = 0;
+int int_c = 0,int_d = 1;
+
+
+const double const_double_a = 0.f;
+const int const_int_a = 0;
+int const int_const_a = 0;
+const static int const_static_int_a = 0;
+static const int static_const_int_a = 0;
+static int static_int_a = 0;
+int static int_static_a = 0;
+#if HAVE_TYPEDEF_SUPPORT
+test_int test_int_a;
+test_int test_int_a2 = 0;
+const test_int const_test_int_a = 0;
+static const test_int static_const_test_int_a = 0;
+static test_int static_test_int_a = 0;
+#endif
