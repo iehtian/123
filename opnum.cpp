@@ -3,4 +3,3 @@
     list->next = node;
     list = list->next;
     printf("%s %d\n", list->value, list->type);
-    return true;
